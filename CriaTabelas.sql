@@ -1,0 +1,13 @@
+CREATE DATABASE BDProjeto-01;
+
+USE BDProjeto-01;
+
+CREATE TABLE Clientes (
+    ClienteID INT PRIMARY KEY IDENTITY(1,1),
+    Nome NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100),
+    Telefone NVARCHAR(20),
+    Endereco NVARCHAR(255)
+);
+
+
